@@ -1,0 +1,3 @@
+* Явно указать завершающий символ/последовательность end -> 'print(..., end=<something>)' # ...<something>
+* Явно указать разделитель sep (separate), для print -> 'print(a, b, c, sep=<something>)' # a<something>b<something>c
+* Экранированный символ 'n' дает символ -> '\n', который указывает компьютеру команду CRLF - Carriage Return, Line Feed
