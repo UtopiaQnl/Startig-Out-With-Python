@@ -1,0 +1,40 @@
+1. height = float(input("Введите свой рост: "))
+2. color = input("Введите свой любимый цвет: ")
+3. 
+    a) b = a + 2
+    б) a = 4 * b
+    в) b = a / 3.14
+    г) a = b - 8
+
+4. w = 5; x = 4; y = 8; z = 2
+    а) result = x + y  # 12
+    б) result = z * 2  # 4
+    в) result = y / x  # 2.0
+    г) result = y - z  # 6
+    д) result = w // z  # 2
+
+5. total = 10 + 14
+6. due = total - down_payment
+7. total = subtotal * 0.15
+8. _> 11
+9. _> 5
+10. print(f"{sales:.2f}")
+11. print(f"{number:,.1f}")
+12. _> Джордж@Джон@Пол@Ринго
+13. turtle.cycle(75)
+14. 
+    turtle.fillcolor("blue")
+    turtle.begin_fill()
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.end_fill()
+
+15. !!! Нарисовать квадрат со сторонами 100 и в центре круг, радиус который равен 80 и при этом, чтобы он был маньше чем квадрат???
+
+
+
