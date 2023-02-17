@@ -1,5 +1,6 @@
 2.42 * 0 градусов
 2.43 * функция forward(<расстояние>)
+2.45 * ------  # turtle.penup() для отключения рисовки и turtle.goto() с указанием коорд, а затем turtle.pendown() для включения отрисовки
 2.44 * turtle.right(45)
 2.45 * turtle.goto(<x>, <y>)
 2.46 * turtle.heading()
@@ -15,5 +16,5 @@
 2.56 * 1. Вписать команду turtle.begin_fill()
        2. Описать фигуру
        3. Вписать команду turtle.end_fill()
-2.57 * turtle.text(<текст>)
+2.57 * turtle.text(<текст>)  # turtle.write(<текст>)  мде, вылетело из головы. признаю
 2.58 * radius = turtle.numinput("Введите значение", "Каков радиус окружности?", minval=0)
