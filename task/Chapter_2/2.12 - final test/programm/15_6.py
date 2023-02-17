@@ -1,0 +1,52 @@
+import turtle as t
+
+SIDE = 100
+
+t.speed(0)
+t.hideturtle()
+t.pensize(2)
+
+t.dot()
+t.goto(-SIDE, -SIDE)
+t.dot()
+t.goto(SIDE, SIDE)
+t.dot()
+t.goto(SIDE, -SIDE)
+t.dot()
+t.goto(-SIDE, SIDE)
+t.dot()
+t.goto(-SIDE, -SIDE)
+
+t.forward(SIDE/4)
+t.penup()
+t.forward(SIDE/4)
+t.pendown()
+t.forward(SIDE/4)
+t.penup()
+t.forward(SIDE/4)
+t.pendown()
+t.forward(SIDE/4)
+t.penup()
+t.forward(SIDE/4)
+t.pendown()
+t.forward(SIDE/4)
+t.penup()
+
+t.goto(-SIDE, SIDE)
+t.pendown()
+t.forward(SIDE/4)
+t.penup()
+t.forward(SIDE/4)
+t.pendown()
+t.forward(SIDE/4)
+t.penup()
+t.forward(SIDE/4)
+t.pendown()
+t.forward(SIDE/4)
+t.penup()
+t.forward(SIDE/4)
+t.pendown()
+t.forward(SIDE/4)
+
+
+t.done()
