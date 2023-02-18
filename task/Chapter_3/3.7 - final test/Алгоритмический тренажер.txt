@@ -1,0 +1,63 @@
+1.
+    if x > 100:
+        y = 20
+        z = 40
+
+2.
+    if a < 10:
+        b = 0
+        c = 1
+
+3.  
+    if a < 10:
+        b = 0
+    else:
+        b = 99
+
+4.
+    if score >= A_score:
+        print('Ваш уровень - А.')
+    else:
+        if score >= B_score:
+            print('Ваш уровень - B.')
+        else:
+            if score >= C_score:
+                print("Ваш уровень - C.")
+            else:
+                if score >= D_score:
+                    print('Ваш уровень - D.')
+                else:
+                    print("Ваш уровень - F.")
+
+5.
+    if amount1 > 10 and amount2 < 100:
+        if amount1 > amount2:
+            print(amount1)
+        else:
+            print(amount2)
+
+6.
+    if speed >= 24 and speed <= 56:
+        print('Скорость нормальная')
+    else:
+        print('Скорость аварийная')
+
+7.
+    if points < 9 or points > 51:
+        print('Недопустимые точки')
+    else:
+        print('Допустимые точки')
+
+8.
+    if turtle.heading() >= 0 and turtle.heading() <= 45:
+        turtle.penup()
+
+9.  
+    if turtle.pencolor() == 'red' of turtle.pencolor() == 'blue':
+        turtle.pensize(5)
+
+10.
+    if ((turtle.xcor() >= 100 and turtle.xcor() <= 200) and
+        (turtle.ycor() >= 100 and turtle.ycor() <= 200)):
+        turtle.hideturtle()
+
