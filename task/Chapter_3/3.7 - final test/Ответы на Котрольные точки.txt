@@ -1,5 +1,5 @@
 3.22 * turtle.xcor() для абсциссы, turtle.ycor() для ординаты
-3.23 * turtle.isdown()
+3.23 * not turtle.isdown()
 3.24 * turtle.heading()
 3.25 * turtle.isvisible()
 3.26 *
