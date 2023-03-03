@@ -1,0 +1,62 @@
+1.
+    product = int(input()) * 10
+    while product < 100:
+        product += int(input()) * 10
+
+2. 
+    while True:
+        a = float(input("Введите первое число: "))
+        b = float(input("Введите второе число: "))
+
+        result = a + b
+        print(f"Результат сложения: {result:,.2f}")
+
+        print("Желаете повторить? (да, нет)")
+        answer = input()
+
+        if answer == 'нет':
+            break
+
+3.
+    for x in range(0, 1001, 10):
+        print(x, end=' ')
+
+4.
+    s = 0
+    for _ in range(10):
+        s += float(input("Введите число: "))
+    print(f"Результат: {s:,.2f}")
+
+5.
+    start = 1
+    finish = 31
+
+    result = 0
+    for x in range(start, finish):
+        result += x / (finish - x)
+
+    print(f"result is {result:,.2f}")
+
+6.
+    а) x += 1
+    б) x *= 2
+    в) x /= 10
+    г) x -= 100
+
+7.
+    for i in range(10):
+        for y in range(15):
+            print("#", end='')
+    print()
+
+8.
+    number = int(input("Введите положительное не нулевое число: "))
+    while number <= 0:
+        print('ОШИБКА! Допустимо только положительное не нулевое число. Повторите попытку ввода.')
+        number = int(input("Введите положительное не нулевое число: "))
+
+9. 
+    number = int(input("Введите число от 1 до 100: "))
+    while number < 1 or number > 100:
+        print('ОШИБКА! Допустимо только числа от 1 до 100') 
+        number = int(input("Введите число от 1 до 100: "))
