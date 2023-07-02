@@ -1,2 +1,3 @@
 core/.idea
 task/*.txt
+__pycache__/
