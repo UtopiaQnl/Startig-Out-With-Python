@@ -1,0 +1,8 @@
+5.34
+    import math
+
+5.35
+    result = math.sqrt(100)
+
+5.36
+    result = math.radians(45)
