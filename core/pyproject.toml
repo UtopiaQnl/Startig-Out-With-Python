@@ -51,6 +51,9 @@ ignore = [
   # PGH (pygrep-hooks)
   "PGH003", # Check 'type: ignore' without annotation warn are intended to be suppressed
   "PGH004", # Check 'noqa' without annotation diagnostics are intended to be suppressed
+  "D",
+  "ANN",
+  "SIM",
 ]
 
 
