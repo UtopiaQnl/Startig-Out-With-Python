@@ -1,0 +1,15 @@
+7.22
+    строк - 4
+    столбцов - 2
+
+7.23
+    list = [
+        [0, 0, 0, 0],
+        [0, 0, 0, 0],
+        [0, 0, 0, 0]
+    ]
+
+7.24
+    for r in range(ROWS):
+        for c in range(COLS):
+            print(values[r][c])
