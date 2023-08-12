@@ -1,0 +1,13 @@
+8.1
+    for char in name:
+        print(char)
+8.2
+    0
+8.3
+    9
+8.4
+    IndexError
+8.5
+    len(<string>)
+8.6
+    Ошибка. Строки неизменяемые (немутабельные - immutable)
