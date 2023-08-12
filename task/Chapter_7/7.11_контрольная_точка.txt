@@ -1,0 +1,16 @@
+7.29
+    x и y
+7.30
+    график
+7.31
+    xlable и ylable
+7.32
+    xlim(left, right) и ylim(left, right)
+7.33
+    xticks(points, values) и yticks(points, values)
+7.34
+    position, height
+7.35
+    красного, синего, красного, синего
+7.36
+    values
