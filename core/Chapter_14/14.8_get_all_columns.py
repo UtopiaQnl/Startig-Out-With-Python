@@ -2,18 +2,19 @@ import sqlite3
 
 
 def main():
-    conn = sqlite3.connect("chocolate.db")
+    conn = sqlite3.connect("employees.db")
 
     cur = conn.cursor()
 
+
     cur.execute("""
-    SELECT * FROM Products
+    SELECT City FROM Locations
     """)
 
     results = cur.fetchall()
 
     for row in results:
-        print(f"{row[0]:<5}\t{row[1]:35}\t{row[2]:5,.2f}")
+        print(*row)
 
     conn.close()
 
